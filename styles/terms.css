@@ -9,6 +9,7 @@
     font-size: 48px;
     background: -webkit-linear-gradient(left,#0BBDA8 ,#601583);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .main div {
