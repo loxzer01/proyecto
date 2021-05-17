@@ -37,18 +37,17 @@ const countdown = (deadline, elem) => {
 const cambio = () => {
 	switch (cuentaVeces) {
 		case 0:
-			console.log("hola");
 			countdown("May 15 2021 21:24:11 GMT-0400", 'reloj');
 			break;
 		case 1:
 			countdown("May 30 2021 21:24:11 GMT-0400", 'reloj');
-			price.textContent = "6 USD = 1 YFDR";
-			bonus.textContent = "6% (+ 1000 USD)";
+			price.textContent = "3 USD = 1 YFDR";
+			bonus.textContent = "10% (+ 1000 USD)";
 			break;
 		case 2:
 			countdown("jun 14 2021 21:24:11 GMT-0400", 'reloj');
-			price.textContent = "6.5 USD = 1 YFDR";
-			bonus.textContent = "5% (+ 1000 USD)";
+			price.textContent = "3.5 USD = 1 YFDR";
+			bonus.textContent = "8% (+ 1000 USD)";
 			break
 	}
 }
